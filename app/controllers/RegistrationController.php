@@ -13,4 +13,10 @@ class RegistrationController extends \BaseController {
 	{
 		return View::make('registration.create');
 	}
+
+	public function store()
+	{
+		// return 'Creating a New User';
+		return Redirect::home();
+	}
 }
