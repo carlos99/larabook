@@ -78,7 +78,7 @@ return array(
 	|
 	*/
 
-	'key' => 'p0TDITNESvjsEfQ9xvqGJiZkwa93mURU',
+	'key' => '4tS4pSXL31bTUm0RueF8Pp61PtAXQTyw',
 
 	'cipher' => MCRYPT_RIJNDAEL_128,
 
@@ -122,7 +122,8 @@ return array(
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 		'Way\Generators\GeneratorsServiceProvider',
-		'Laracasts\Commander\CommanderServiceProvider'
+		'Laracasts\Commander\CommanderServiceProvider',
+		'Laracasts\Validation\ValidationServiceProvider'
 
 	),
 
